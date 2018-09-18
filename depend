@@ -1,107 +1,17 @@
-    1  sudo raspi-config 
-    2  sudo apt-get install plymouth plymouth-themes
-    3  sudo raspi-config 
-    4  sudo raspi-config 
-    5  sudo apt-get update
-    6  sudo apt-get install vnc4server 
-    7  sudo apt-get install xfce4
-    8  sudo nano /boot/config.txt 
-    9  sudo nano /boot/cmdline.txt 
-   10  sudo reboot
-   11  sudo plymouth-set-default-theme pix
-   12  sudo plymouth-set-default-theme spinner
-   13  sudo apt-get install chromium-browser
-   14  sudo apt-get install python-dev 
-   15  vim /boot/config.txt 
-   16  sudo nano /boot/config.txt 
-   17  sudo raspi-config 
-   18  sudo plymouth-set-default-theme spinner
-   19  sudo update-initramfs -u
-   20  sudo apt-get install vim
-   21  sudo raspi-config 
-   22  sudo apt-get purge plymouth
-   23  sudo apt-get install plymouth*
-   24  sudo plymouth-set-default-theme pix
-   25  sudo reboot
-   26  sudo nano /boot/config.txt 
-   27  sudo nano /boot/cmdline.txt 
-   28  sudo reboot
-   29  alsamixer 
-   30  pulseaudio 
-   31  puv
-   32  alsamixer 
-   33  sudo apt-get install python-pip
-   34  pip install picamera
-   35  sudo pip install picamera
-   36  cd recorder/
-   37  ls
-   38  cd rec/
-   39  ls
-   40  python ./main.py 
-   41  pip install numpy
-   42  python ./main.py 
-   43  pip install Pillow
-   44  sudo apt-get install libjpeg-dev 
-   45  pip install Pillow
-   46  python ./main.py 
-   47  sudo apt-get install python-opencv
-   48  python ./main.py 
-   49  pip install pyaudio
-   50  sudo apt-get install portaudio19-dev 
-   51  pip install pyaudio
-   52  python ./main.py 
-   53  pip install seria
-   54  pip install serial
-   55  python ./main.py 
-   56  history > depend
-    1  sudo raspi-config 
-    2  sudo apt-get install plymouth plymouth-themes
-    3  sudo raspi-config 
-    4  sudo raspi-config 
-    5  sudo apt-get update
-    6  sudo apt-get install vnc4server 
-    7  sudo apt-get install xfce4
-    8  sudo nano /boot/config.txt 
-    9  sudo nano /boot/cmdline.txt 
-   10  sudo reboot
-   11  sudo plymouth-set-default-theme pix
-   12  sudo plymouth-set-default-theme spinner
-   13  sudo apt-get install chromium-browser
-   14  sudo apt-get install python-dev 
-   15  vim /boot/config.txt 
-   16  sudo nano /boot/config.txt 
-   17  sudo raspi-config 
-   18  sudo plymouth-set-default-theme spinner
-   19  sudo update-initramfs -u
-   20  sudo apt-get install vim
-   21  sudo raspi-config 
-   22  sudo apt-get purge plymouth
-   23  sudo apt-get install plymouth*
-   24  sudo plymouth-set-default-theme pix
-   25  sudo reboot
-   26  sudo nano /boot/config.txt 
-   27  sudo nano /boot/cmdline.txt 
-   28  sudo reboot
-   29  cd recorder/rec/
-   30  python main.py 
-   31  ls
-   32  mv ./test.py ./tessss.py
-   33  python main.py 
-   34  vim ./main.py 
-   35  python main.py 
-   36  vim ./components/ButtonRetreiver.py
-   37  ls
-   38  rm ./test.pyc 
-   39  python main.py 
-   40  pip install pygame
-   41  sudo apt-get install apt-file 
-   42  sudo apt-file update
-   43  apt-file search sdl-config
-   44  sudo apt-get install libsdl1.2-dev
-   45  pip install pygame
-   46  sudo apt-get install python-pygame
-   47  python main.py 
-   48  pkill -9 pyt
-   49  pip install pynput
-   50  python main.py 
-   51  history >> depend 
+sudo apt-get install vnc4server 
+sudo apt-get install xfce4
+sudo apt-get install plymouth plymouth-themes
+sudo apt-get install python-dev 
+sudo apt-get install python-pip
+sudo apt-get install libjpeg-dev 
+sudo apt-get install portaudio19-dev 
+sudo apt-get install libsdl1.2-dev
+sudo apt-get install python-pygame
+sudo apt-get install python-picamera
+
+
+pip install numpy
+pip install Pillow
+pip install pyaudio
+pip install pyserial
+pip install pynput
