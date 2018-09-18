@@ -47,7 +47,7 @@ class VideoPhotoPreview(object):
         self._overlayHeader.layer = 5
 
     def build_picture(self, name):
-        img = Image.open(name).transpose(Image.FLIP_LEFT_RIGHT)
+        img = Image.open(name) #.transpose(Image.FLIP_LEFT_RIGHT)
         pad = Image.new('RGB', (
             ((1280 + 31) // 32) * 32,
             ((1024 + 15) // 16) * 16,

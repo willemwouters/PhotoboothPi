@@ -55,8 +55,8 @@ class Slideshow(object):
         if(len(self._filelist) < 2): #nuffin to do
             return False
 
-            if(self._random is True):       
-                n = random.randrange(0, len(self._filelist))
+        if(self._random is True):       
+            n = random.randrange(0, len(self._filelist))
             while(n == self._currentIndex):
                 n = random.randrange(0, len(self._filelist))
 
